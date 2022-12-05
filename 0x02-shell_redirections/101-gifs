@@ -1,0 +1,2 @@
+#!/bin/bash
+find -name '*.gifs' -type file printf "%f\n"
