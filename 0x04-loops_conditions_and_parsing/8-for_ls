@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to display content of pwd, in ls format
+
+for i in *; do (echo "$i" | rev | cut -d '-' -f -1 | rev); done
