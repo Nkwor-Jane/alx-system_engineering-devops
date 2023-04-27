@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Script to dispay 1-100
+# display FizzBuzz if number is a multipy of 3 and 5
+# display Fizz if number is a multiplt of 3
+# display Buzz if number is a multiple of 5
+
+i=1
+while [ $i -lt 101 ]
+do
+#	echo $i
+	if [ $((i % 3)) -eq 0 ] && [ $((i % 5)) -eq 0 ]
+	then
+		echo "FizzBuzz"
+	elif [ $((i %3)) -eq 0 ]
+	then
+		echo "Fizz"
+	elif [ $((i % 3)) -eq  0 ]
+	then
+		echo "Buzz"
+	else
+		echo $i
+	fi
+	i=$((i+1))
+done
