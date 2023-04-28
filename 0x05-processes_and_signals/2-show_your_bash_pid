@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# script to show own PID
+# shellcheck disable=SC2009
+ps -ef | grep bash
