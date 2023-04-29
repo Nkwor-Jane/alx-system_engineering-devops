@@ -2,7 +2,8 @@
 # This script is for displaying "Best School" 10 times
 
 i=0
-until [ $i -le 10 ]; do
+until [ $i -le 10 ]
+do
 	echo "Best School"
-	i=$((i+1))
+	((i++))
 done
