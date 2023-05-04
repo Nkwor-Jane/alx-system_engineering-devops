@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Script to display active IPv4 IPs on machine it is
+# exceuted on
+hostname -I
