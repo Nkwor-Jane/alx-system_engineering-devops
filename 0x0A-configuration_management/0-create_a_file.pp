@@ -1,5 +1,6 @@
 # create a file Puppet attributes
-file{ "/tmp/school":
+file{ "/tmp":
+	path => "/tmp/school",
 	ensure => file,
 	mode => "0744",
 	owner => www-data,
